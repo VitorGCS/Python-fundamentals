@@ -52,4 +52,61 @@ while True:
         print('I don\'t understand that ...')
 """
 
- #For Loops
+#For Loops
+"""
+#loop throwng a string
+for item in 'Python':
+    print(item)
+
+#loop a list of strings
+for item in ['Mosh', 'John', 'Sarah']:
+    print(item)
+
+#loop a list of numbers
+for item in [1,2,3,4,5]:
+    print(item)
+
+#loop in a gange of numbers
+for item in range(5, 10, 2):
+    print(item)
+
+
+#Exercise: calculate the total of an array
+prices = [10, 20, 30]
+totalPrice = 0
+for price in prices:
+    totalPrice += price
+print(totalPrice)
+print(f"Total: {totalPrice}")
+
+"""
+
+#Nested loops
+"""
+for x in range(4):
+    #print(x)
+    for y in range(3):
+        print(f'({x},{y})')
+"""
+
+#Challenge
+#Print out the follow shape
+"""
+XXXXX
+XX
+XXXXX
+XX
+XX
+"""
+numbers = [5, 2, 5, 2, 2]
+#solution 1
+"""
+for numb in numbers:
+    print('x'*numb)
+"""
+#solution 2
+for numb in numbers:
+    printVal = ''
+    for item in range(numb):
+        printVal +='x'
+    print(printVal)
