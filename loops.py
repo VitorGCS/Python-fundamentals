@@ -110,5 +110,5 @@ for numb in numbers:
     for item in range(numb):
         printVal +='x'
     print(printVal)
-
-print("Testing conflits merge: local")
+   
+print("Testing conflits merge: remote")
