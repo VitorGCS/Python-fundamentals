@@ -110,5 +110,3 @@ for numb in numbers:
     for item in range(numb):
         printVal +='x'
     print(printVal)
-
-print("Tests with git")
